@@ -1,6 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
+
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   The variables that provide a non-random amount of variance to the mpg are the vehicle length and ground clearance.  This means that the longer or shorter the car is     the fuel efficiency is directly related.  Same with ground clearance.  The variable that is almsot statistically significant is vehicle weight; however with a p-vale     of 0.0776.
 2. Is the slope of the linear model considered to be zero? Why or why not?
@@ -11,3 +12,14 @@
   ![image](https://user-images.githubusercontent.com/103297084/194336804-859c912a-9860-4b41-9f52-4fdb4b40748d.png)
 
 
+## Summary Statistics on Suspension Coils
+
+ 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the        current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+ 
+      The variance of the suspension coils do not exceed 100 pounds per square inch according to the total summary where the variance is 62.29. However, when the data is       broken down by the Lots it demonstrates that Lot 3 exceeds the limit of 100 pounds per square inch with a value of 170.29 PSI.  Overall Lot 3 needs to addressed so       that the variance of the PSI may change to less than 100.
+      
+![image](https://user-images.githubusercontent.com/103297084/194346411-585ca7ef-249b-418e-8a3a-a583b5a34312.png)
+
+![image](https://user-images.githubusercontent.com/103297084/194346544-5b1ba828-28ab-4050-a803-2ec782cfdc44.png)
+
+  
